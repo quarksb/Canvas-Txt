@@ -32,7 +32,7 @@ const defaultConfig = {
 }
 
 function drawText(
-  ctx: CanvasRenderingContext2D,
+  ctx: CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D,
   myText: string,
   inputConfig: CanvasTextConfig
 ) {

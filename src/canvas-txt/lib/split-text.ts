@@ -4,7 +4,7 @@ import justifyLine from './justify'
 const SPACE = '\u{200a}'
 
 export interface SplitTextProps {
-  ctx: CanvasRenderingContext2D
+  ctx: CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D
   text: string
   justify: boolean
   width: number

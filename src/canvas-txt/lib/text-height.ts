@@ -1,5 +1,5 @@
 interface GetTextHeightProps {
-  ctx: CanvasRenderingContext2D
+  ctx: CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D
   text: string
   style: string
 }

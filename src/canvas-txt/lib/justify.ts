@@ -1,5 +1,5 @@
 export interface JustifyLineProps {
-  ctx: CanvasRenderingContext2D
+  ctx: CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D
   line: string
   spaceWidth: number
   spaceChar: string
